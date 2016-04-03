@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9515289F1CAE9E9C00DD9DEE /* Rainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9515289E1CAE9E9C00DD9DEE /* Rainbow.jpg */; };
+		951528A11CAEA83A00DD9DEE /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951528A01CAEA83A00DD9DEE /* CustomPointAnnotation.swift */; };
+		951528A31CAEB05000DD9DEE /* Clear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 951528A21CAEB05000DD9DEE /* Clear.jpg */; };
+		951528A51CAEBB9100DD9DEE /* filterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951528A41CAEBB9100DD9DEE /* filterController.swift */; };
+		955674521CAC694600B46A76 /* customMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955674511CAC694600B46A76 /* customMarker.swift */; };
+		955674541CACB2AB00B46A76 /* Cloudy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 955674531CACB2AB00B46A76 /* Cloudy.jpg */; };
+		955674561CACB4E600B46A76 /* Rainy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 955674551CACB4E600B46A76 /* Rainy.jpg */; };
+		955674581CACB6FA00B46A76 /* Snowy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 955674571CACB6FA00B46A76 /* Snowy.jpg */; };
+		956B54CF1CA97D1500B3E935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B54CE1CA97D1500B3E935 /* AppDelegate.swift */; };
+		956B54D11CA97D1500B3E935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B54D01CA97D1500B3E935 /* ViewController.swift */; };
+		956B54D41CA97D1500B3E935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956B54D21CA97D1500B3E935 /* Main.storyboard */; };
+		956B54D61CA97D1500B3E935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956B54D51CA97D1500B3E935 /* Assets.xcassets */; };
+		956B54D91CA97D1500B3E935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956B54D71CA97D1500B3E935 /* LaunchScreen.storyboard */; };
+		95C074891CAF7930005F2964 /* businessData.json in Resources */ = {isa = PBXBuildFile; fileRef = 95C074881CAF7930005F2964 /* businessData.json */; };
+		95C0748B1CB08B00005F2964 /* sky-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C0748A1CB08B00005F2964 /* sky-3.png */; };
+		95C0748D1CB08BB9005F2964 /* Montreal_Canada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95C0748C1CB08BB9005F2964 /* Montreal_Canada.jpg */; };
+		95C0748F1CB090E9005F2964 /* homeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C0748E1CB090E9005F2964 /* homeController.swift */; };
+		95C074911CB0AFF4005F2964 /* weatherEats.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C074901CB0AFF4005F2964 /* weatherEats.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9515289E1CAE9E9C00DD9DEE /* Rainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rainbow.jpg; sourceTree = "<group>"; };
+		951528A01CAEA83A00DD9DEE /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		951528A21CAEB05000DD9DEE /* Clear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clear.jpg; sourceTree = "<group>"; };
+		951528A41CAEBB9100DD9DEE /* filterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filterController.swift; sourceTree = "<group>"; };
+		955674511CAC694600B46A76 /* customMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customMarker.swift; sourceTree = "<group>"; };
+		955674531CACB2AB00B46A76 /* Cloudy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cloudy.jpg; sourceTree = "<group>"; };
+		955674551CACB4E600B46A76 /* Rainy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rainy.jpg; sourceTree = "<group>"; };
+		955674571CACB6FA00B46A76 /* Snowy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowy.jpg; sourceTree = "<group>"; };
+		956B54CB1CA97D1500B3E935 /* weatherEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956B54CE1CA97D1500B3E935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		956B54D01CA97D1500B3E935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		956B54D31CA97D1500B3E935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		956B54D51CA97D1500B3E935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956B54D81CA97D1500B3E935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		956B54DA1CA97D1500B3E935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C074881CAF7930005F2964 /* businessData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = businessData.json; sourceTree = "<group>"; };
+		95C0748A1CB08B00005F2964 /* sky-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky-3.png"; sourceTree = "<group>"; };
+		95C0748C1CB08BB9005F2964 /* Montreal_Canada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Montreal_Canada.jpg; sourceTree = "<group>"; };
+		95C0748E1CB090E9005F2964 /* homeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeController.swift; sourceTree = "<group>"; };
+		95C074901CB0AFF4005F2964 /* weatherEats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherEats.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956B54C81CA97D1500B3E935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956B54C21CA97D1500B3E935 = {
+			isa = PBXGroup;
+			children = (
+				956B54CD1CA97D1500B3E935 /* weatherEats */,
+				956B54CC1CA97D1500B3E935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956B54CC1CA97D1500B3E935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956B54CB1CA97D1500B3E935 /* weatherEats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956B54CD1CA97D1500B3E935 /* weatherEats */ = {
+			isa = PBXGroup;
+			children = (
+				956B54CE1CA97D1500B3E935 /* AppDelegate.swift */,
+				95C0748E1CB090E9005F2964 /* homeController.swift */,
+				956B54D01CA97D1500B3E935 /* ViewController.swift */,
+				951528A41CAEBB9100DD9DEE /* filterController.swift */,
+				951528A01CAEA83A00DD9DEE /* CustomPointAnnotation.swift */,
+				955674511CAC694600B46A76 /* customMarker.swift */,
+				956B54D21CA97D1500B3E935 /* Main.storyboard */,
+				955674531CACB2AB00B46A76 /* Cloudy.jpg */,
+				955674571CACB6FA00B46A76 /* Snowy.jpg */,
+				951528A21CAEB05000DD9DEE /* Clear.jpg */,
+				955674551CACB4E600B46A76 /* Rainy.jpg */,
+				9515289E1CAE9E9C00DD9DEE /* Rainbow.jpg */,
+				95C0748A1CB08B00005F2964 /* sky-3.png */,
+				95C0748C1CB08BB9005F2964 /* Montreal_Canada.jpg */,
+				95C074901CB0AFF4005F2964 /* weatherEats.png */,
+				956B54D51CA97D1500B3E935 /* Assets.xcassets */,
+				956B54D71CA97D1500B3E935 /* LaunchScreen.storyboard */,
+				95C074881CAF7930005F2964 /* businessData.json */,
+				956B54DA1CA97D1500B3E935 /* Info.plist */,
+			);
+			path = weatherEats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956B54CA1CA97D1500B3E935 /* weatherEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956B54DD1CA97D1500B3E935 /* Build configuration list for PBXNativeTarget "weatherEats" */;
+			buildPhases = (
+				956B54C71CA97D1500B3E935 /* Sources */,
+				956B54C81CA97D1500B3E935 /* Frameworks */,
+				956B54C91CA97D1500B3E935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherEats;
+			productName = weatherEats;
+			productReference = 956B54CB1CA97D1500B3E935 /* weatherEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956B54C31CA97D1500B3E935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason Du";
+				TargetAttributes = {
+					956B54CA1CA97D1500B3E935 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 956B54C61CA97D1500B3E935 /* Build configuration list for PBXProject "weatherEats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956B54C21CA97D1500B3E935;
+			productRefGroup = 956B54CC1CA97D1500B3E935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956B54CA1CA97D1500B3E935 /* weatherEats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956B54C91CA97D1500B3E935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C074891CAF7930005F2964 /* businessData.json in Resources */,
+				951528A31CAEB05000DD9DEE /* Clear.jpg in Resources */,
+				956B54D91CA97D1500B3E935 /* LaunchScreen.storyboard in Resources */,
+				95C074911CB0AFF4005F2964 /* weatherEats.png in Resources */,
+				956B54D61CA97D1500B3E935 /* Assets.xcassets in Resources */,
+				95C0748D1CB08BB9005F2964 /* Montreal_Canada.jpg in Resources */,
+				9515289F1CAE9E9C00DD9DEE /* Rainbow.jpg in Resources */,
+				956B54D41CA97D1500B3E935 /* Main.storyboard in Resources */,
+				955674561CACB4E600B46A76 /* Rainy.jpg in Resources */,
+				95C0748B1CB08B00005F2964 /* sky-3.png in Resources */,
+				955674581CACB6FA00B46A76 /* Snowy.jpg in Resources */,
+				955674541CACB2AB00B46A76 /* Cloudy.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956B54C71CA97D1500B3E935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956B54D11CA97D1500B3E935 /* ViewController.swift in Sources */,
+				955674521CAC694600B46A76 /* customMarker.swift in Sources */,
+				95C0748F1CB090E9005F2964 /* homeController.swift in Sources */,
+				951528A11CAEA83A00DD9DEE /* CustomPointAnnotation.swift in Sources */,
+				956B54CF1CA97D1500B3E935 /* AppDelegate.swift in Sources */,
+				951528A51CAEBB9100DD9DEE /* filterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		956B54D21CA97D1500B3E935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956B54D31CA97D1500B3E935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		956B54D71CA97D1500B3E935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956B54D81CA97D1500B3E935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956B54DB1CA97D1500B3E935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		956B54DC1CA97D1500B3E935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		956B54DE1CA97D1500B3E935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weatherEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsdu1996.weatherEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		956B54DF1CA97D1500B3E935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weatherEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsdu1996.weatherEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956B54C61CA97D1500B3E935 /* Build configuration list for PBXProject "weatherEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956B54DB1CA97D1500B3E935 /* Debug */,
+				956B54DC1CA97D1500B3E935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956B54DD1CA97D1500B3E935 /* Build configuration list for PBXNativeTarget "weatherEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956B54DE1CA97D1500B3E935 /* Debug */,
+				956B54DF1CA97D1500B3E935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956B54C31CA97D1500B3E935 /* Project object */;
+}
